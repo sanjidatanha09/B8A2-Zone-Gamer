@@ -1,7 +1,68 @@
-@media screen and (max-width:800px) {
-
-}
-
 @media screen and (max-width:425px) {
-    
+    .nav-content {
+        /*header section start */
+        flex-direction: column;
+    }
+
+    .link-content {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        padding-top: 20px;
+
+
+    }
+
+    .btn-design {
+
+
+        padding: 20px;
+        margin: 30px;
+        text-align: center;
+    }
+
+        /*header section end*/
 }
+
+
+
+
+
+
+@media screen and (min-width:426px) and (max-width:768px) {
+    /*header section start*/
+
+    .nav-content {
+        flex-direction: column;
+    }
+    .gamer-content{
+        padding-left: 70px;
+    }
+
+    .link-content {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        padding-top: 20px;
+
+
+    }
+   .youtube{
+    padding: 0px 10px;
+   }
+
+
+    .btn-design {
+
+
+        padding: 30px 50px;
+        margin: 30px;
+        text-align: center;
+    }
+
+
+        /*header section end */
+
+
+}
+
