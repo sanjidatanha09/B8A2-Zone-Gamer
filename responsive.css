@@ -9,7 +9,14 @@
         gap: 20px;
         width: 100%;
         padding-top: 20px;
+        font-size: 14px;
 
+
+    }
+
+    .game-nav {
+        padding-left: 35px;
+        padding-top: 30px;
 
     }
 
@@ -19,6 +26,7 @@
         padding: 20px;
         margin: 30px;
         text-align: center;
+        font-size: 14px;
     }
 
 
@@ -125,22 +133,22 @@
 
     }
 
-   
-        #play-img1 {
-    
-            width: 65%;
-            margin-left: 85px;
-    
-        }
-    
-        #play-img2 {
-            width: 150px;
-            bottom: 90px;
-            padding-left: 30px;
-    
-    
-        }
-        
+
+    #play-img1 {
+
+        width: 65%;
+        margin-left: 85px;
+
+    }
+
+    #play-img2 {
+        width: 150px;
+        bottom: 90px;
+        padding-left: 30px;
+
+
+    }
+
 
 
 
@@ -148,6 +156,56 @@
     /* play-instantly section end*/
 
     /*main section end */
+
+    /*footer section start */
+
+
+    .footer-title,
+    .nav-title {
+        font-size: 25px;
+    }
+
+    .img-design {
+        width: 60px;
+
+
+
+    }
+    .footer-description1{
+        width: 240px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+            
+        
+            
+
+    }
+    .footer-icon{
+        width: 170px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        
+
+    }
+    .terms-descriptin{
+        width: 250px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+            font-size: 12px;
+           
+
+    }
+    .play-game-footer{
+        padding-top: 50px;
+        width: 155px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+            font-size: 9px;
+    
+    }
+
+
+    /*footer end */
 }
 
 
@@ -277,21 +335,22 @@
         margin-top: 80px;
 
     }
-        #play-img1 {
-    
-            width: 65%;
-            margin-left: 182px;
-           
-    
-        }
-    
-        #play-img2 {
-            width: 300px;
-            bottom: 200px;
-            padding-left: 30px;
-    
-    
-        }
+
+    #play-img1 {
+
+        width: 65%;
+        margin-left: 182px;
+
+
+    }
+
+    #play-img2 {
+        width: 300px;
+        bottom: 200px;
+        padding-left: 30px;
+
+
+    }
 
     /*play-instantly secton end */
 

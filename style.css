@@ -396,9 +396,20 @@ footer {
 
 }
 
-.fa-brands {
+.icon {
     padding: 10px;
     color: white;
+    font-size: 26px;
+}
+.fa-twitter{
+    color: rgb(51, 126, 212);
+    
+}
+.fa-apple{
+    color: gray;
+}
+.fa-linkedin-in{
+    color:rgb(46, 46, 196);
 }
 
 
@@ -412,14 +423,13 @@ footer {
 
 }
 
-
-.terms {
-    padding-left: 35px;
-    padding-right: 35px;
-}
-
-.cookie {
-    padding-left: 80px;
+.terms-descriptin{
+    display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 600px;
+        margin: 0 auto;
+    
 
 }
 
