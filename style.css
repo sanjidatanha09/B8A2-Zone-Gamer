@@ -199,7 +199,6 @@
 
 .banner-goat-img {
     width: 50%;
-    border: 2px solid green;
     height: 100%;
 }
 
@@ -382,6 +381,7 @@ footer {
     text-align: center;
     justify-content: center;
     padding-top: 50px;
+   
 }
 
 .footer-description1 {
