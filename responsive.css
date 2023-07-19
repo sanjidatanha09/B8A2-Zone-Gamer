@@ -21,7 +21,46 @@
         text-align: center;
     }
 
-        /*header section end*/
+
+    /*banner section start */
+    .banner-goat-container {
+        flex-direction: column-reverse;
+    }
+
+    .banner-goat-content {
+        width: 100%;
+        border: 2px solid saddlebrown;
+        padding: 80px 0px 20px 90px;
+      
+        
+    }
+
+    .banner-goat-img {
+        width: 100%;
+
+    }
+    .banner-section{
+        
+    }
+
+    .play-title {
+        font-size: 21px;
+    }
+
+    .goat-title {
+        font-size: 39px;
+    }
+
+    .banner-paragraph {
+        font-size: 14px;
+    }
+        .btn{
+            font-size: 10px;
+        }
+
+
+
+    /*header section end*/
 }
 
 
@@ -35,7 +74,8 @@
     .nav-content {
         flex-direction: column;
     }
-    .gamer-content{
+
+    .gamer-content {
         padding-left: 70px;
     }
 
@@ -47,9 +87,10 @@
 
 
     }
-   .youtube{
-    padding: 0px 10px;
-   }
+
+    .youtube {
+        padding: 0px 10px;
+    }
 
 
     .btn-design {
@@ -60,9 +101,28 @@
         text-align: center;
     }
 
+        /*banner section start */
+        .banner-goat-container {
+            flex-direction: column-reverse;
+        }
+    
+        .banner-goat-content {
+            width: 100%;
+            padding: 80px;
+            text-align: center;
 
-        /*header section end */
+    
+    
+        }
+    
+        .banner-goat-img {
+            width: 100%;
+    
+        }
+    
+        
+
+    /*header section end */
 
 
 }
-
