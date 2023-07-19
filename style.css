@@ -109,6 +109,12 @@
 
 /*banner section start*/
 
+.banner-bg-img{
+    background-image: url("images/Group\ 14.png");
+    background-repeat: no-repeat;
+
+}
+
 
 
 .banner-goat-container {
@@ -203,11 +209,15 @@
 .banner-goat-img {
     width: 50%;
     height: 100%;
+   
 }
+
+
 
 #banner-goat-img {
     width: 100%;
-    height: 100k%;
+    height: 100%;
+
 
 }
 
