@@ -32,12 +32,18 @@
 
     /*banner section start */
     .banner-goat-container {
-        flex-direction: column-reverse;
+        flex-direction: column;
+    }
+
+    .banner-bg-img{
+        height: auto;
+        
     }
 
     .banner-goat-content {
         width: 100%;
         padding: 80px 0px 20px 90px;
+        margin-bottom: 100px;
 
 
     }
@@ -290,7 +296,7 @@
 
     /*banner section start */
     .banner-goat-container {
-        flex-direction: column-reverse;
+        flex-direction: column
     }
 
     .banner-goat-content {
