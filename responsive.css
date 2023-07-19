@@ -205,8 +205,6 @@
         flex-wrap: wrap;
 
 
-
-
     }
 
     .footer-icon {
@@ -233,6 +231,9 @@
         flex-wrap: wrap;
         font-size: 9px;
 
+    }
+    .btn-footer{
+        margin-bottom: 5px;
     }
 
 

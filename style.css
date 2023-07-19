@@ -353,6 +353,8 @@ main {
 
 /*action game section start*/
 
+
+
 .atcion-game{
     display: flex;
     flex-wrap: wrap;
@@ -379,6 +381,7 @@ main {
     padding: 5px 10px;
     border-radius: 50px;
         background: #FFF;
+        border: none;
     
 }
 
@@ -402,6 +405,7 @@ main {
     border:2px solid hotpink;
 
 }
+
 /*action game section ends*/
 
 
@@ -460,8 +464,21 @@ footer {
 
 .icon {
     padding: 10px;
-    color: white;
     font-size: 26px;
+    
+}
+.btn-footer{
+    color: blue;
+    background-color: rgb(143, 143, 199);
+    width: 50px;
+    border: none;
+    
+}
+.fa-instagram{
+    color: rgb(150, 31, 106);
+}
+.fa-whatsapp{
+    color: rgb(11, 230, 84);
 }
 
 .fa-twitter {
@@ -470,7 +487,7 @@ footer {
 }
 
 .fa-apple {
-    color: gray;
+    color:black;
 }
 
 .fa-linkedin-in {
