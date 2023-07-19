@@ -155,13 +155,27 @@
     /* play-instantly section end*/
 
     /*action game section start*/
+    .atcion-game{
+        width: 300px;
+        margin: 0 auto;
+    }
+   .action-game-img{
+    height: 20px;
+    width: 20px;
+   }
+   .action-game-description{
+    font-size: 5px;
+   
+   }
+   .action-game-content{
+   margin: 0;
+   margin-top: 20px;
 
-        .action-game-img{
-            width: 20px;
-                height: 20px;
-               
-        }
 
+    
+
+
+   }
 
 
     /*action game section end*/
