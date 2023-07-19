@@ -413,12 +413,13 @@
 
 .action-game-section-bg {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 100px 0px;
 
 }
 
 .atcion-game {
     max-width: 1200px;
-    margin: 30px auto;
+    margin: 0px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -442,13 +443,11 @@
 
 .action-game-content {
     display: flex;
-
     margin: 25px;
     padding: 5px 10px;
     border-radius: 50px;
-
     background: #FFF;
-    ;
+
     border: none;
 
 
@@ -502,7 +501,7 @@ footer {
 
 .footer-content {
     text-align: center;
-    margin-top: 150px;
+   
 
 }
 
