@@ -121,6 +121,9 @@
 
 
 
+
+
+
 }
 
 .banner-goat-content {
@@ -214,13 +217,14 @@
 
 
 /*main start */
-main {
+
+
+/*online-game section start here */
+.online-game-section {
     max-width: 1200px;
     margin: 30px auto;
 
 }
-
-/*online-game section start here */
 
 .online-game-title {
     color: #0B0223;
@@ -262,23 +266,25 @@ main {
 
 
 }
+
 .play {
     padding-left: 60px;
-    
+
 
 }
 
-.position-parent-container{
+.position-parent-container {
     position: relative;
-    
+
 }
-.online-game-img{
+
+.online-game-img {
     height: 100%;
     width: 100%;
 }
 
-.play-btn-overlay{
-    position:absolute;
+.play-btn-overlay {
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -288,25 +294,27 @@ main {
     background: black;
     cursor: pointer;
     border-radius: 16px;
- 
-    
-}
-.overlay-content{
-    position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color:white;
+    border: 2px solid hotpink;
+
+
 }
 
-.position-parent-container:hover .play-btn-overlay{
+.overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.position-parent-container:hover .play-btn-overlay {
     opacity: 0.8;
 }
 
 
 
 
-  
+
 
 
 
@@ -316,6 +324,13 @@ main {
 /*online-game section end here */
 
 /* play-instantly section start */
+
+.paly-instantly-section {
+    max-width: 1200px;
+    margin: 30px auto;
+
+}
+
 .play-instantly-container {
     display: flex;
     justify-content: space-between;
@@ -386,56 +401,71 @@ main {
 
 /*action game section start*/
 
+.action-game-section-bg {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 
+}
 
-.atcion-game{
+.atcion-game {
+    max-width: 1200px;
+    margin: 30px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 
-   
- 
+
+
+
 
 }
-.action-game-content:hover{
+
+.action-game-content:hover {
     border: 2px solid hotpink;
 
 }
 
-.action-game-description:hover{
+.action-game-description:hover {
     color: hotpink;
 
 }
-.action-game-content{
+
+.action-game-content {
     display: flex;
 
     margin: 25px;
     padding: 5px 10px;
     border-radius: 50px;
-        background: #FFF;
-        border: none;
-    
+
+    background: #FFF;
+    ;
+    border: none;
+
+
+
+
 }
 
-.action-game-img{
+.action-game-img {
     width: 40px;
     height: 40px;
     margin-right: 10px;
 
 }
-.action-game-description{
+
+.action-game-description {
     color: #0B0223;
-        font-size: 14px;
-        font-weight: 600;
+    font-size: 14px;
+    font-weight: 600;
 
 }
-.action-border{
+
+.action-border {
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    border:2px solid hotpink;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 2px solid hotpink;
 
 }
 
@@ -498,19 +528,22 @@ footer {
 .icon {
     padding: 10px;
     font-size: 26px;
-    
+
 }
-.btn-footer{
+
+.btn-footer {
     color: blue;
     background-color: rgb(143, 143, 199);
     width: 50px;
     border: none;
-    
+
 }
-.fa-instagram{
+
+.fa-instagram {
     color: rgb(150, 31, 106);
 }
-.fa-whatsapp{
+
+.fa-whatsapp {
     color: rgb(11, 230, 84);
 }
 
@@ -520,7 +553,7 @@ footer {
 }
 
 .fa-apple {
-    color:black;
+    color: black;
 }
 
 .fa-linkedin-in {
