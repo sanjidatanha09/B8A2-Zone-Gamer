@@ -31,16 +31,13 @@
         width: 100%;
         border: 2px solid saddlebrown;
         padding: 80px 0px 20px 90px;
-      
-        
+
+
     }
 
     .banner-goat-img {
         width: 100%;
 
-    }
-    .banner-section{
-        
     }
 
     .play-title {
@@ -54,13 +51,77 @@
     .banner-paragraph {
         font-size: 14px;
     }
-        .btn{
-            font-size: 10px;
-        }
+
+    .btn {
+        font-size: 10px;
+    }
 
 
 
     /*header section end*/
+
+    /*main section start */
+
+
+    /*online game section start */
+    .online-game-card-container {
+        grid-template-columns: 1fr;
+
+    }
+
+    .online-game-title {
+        font-size: 20px;
+    }
+
+    .online-game-description {
+        font-size: 8px;
+    }
+
+    .online-game-card-part {
+        margin: auto;
+        width: 80%;
+
+    }
+
+    .online-game-card-description {
+        font-size: 10px;
+        padding: 25px 0px;
+        text-align: center;
+    }
+
+    .online-game-card-description br {
+        display: none;
+    }
+
+
+    /*  online-game section end */
+
+
+
+    /* play-instantly section start */
+
+    .play-instantly-container {
+        flex-direction: column;
+    }
+
+    .play-instantly-content {
+        width: 100%;
+    }
+
+    .play-instantly-img {
+        width: 100%;
+
+    }
+
+    .play-instantly-title {
+        font-size: 30px;
+    }
+
+
+
+    /* play-instantly section end*/
+
+    /*main section end */
 }
 
 
@@ -101,28 +162,50 @@
         text-align: center;
     }
 
-        /*banner section start */
-        .banner-goat-container {
-            flex-direction: column-reverse;
-        }
-    
-        .banner-goat-content {
-            width: 100%;
-            padding: 80px;
-            text-align: center;
+    /*banner section start */
+    .banner-goat-container {
+        flex-direction: column-reverse;
+    }
 
-    
-    
-        }
-    
-        .banner-goat-img {
-            width: 100%;
-    
-        }
-    
-        
+    .banner-goat-content {
+        width: 100%;
+        padding: 80px;
+        text-align: center;
+
+
+
+    }
+
+    .banner-goat-img {
+        width: 100%;
+
+    }
+
+
 
     /*header section end */
+
+    /*online game section start */
+    .online-game-card-container {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    br {
+        display: none;
+    }
+
+    .online-game-card-part {
+        margin: auto;
+        width: 80%;
+
+    }
+
+    .online-game-card-description {
+        font-size: 12px;
+        text-align: center;
+        padding: 18px 0px;
+    }
 
 
 }
