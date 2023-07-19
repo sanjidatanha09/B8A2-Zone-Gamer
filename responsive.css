@@ -154,6 +154,20 @@
 
     /* play-instantly section end*/
 
+    /*action game section start*/
+
+        .action-game-img{
+            width: 20px;
+                height: 20px;
+               
+        }
+
+
+
+    /*action game section end*/
+
+
+
     /*main section end */
 
     /*footer section start */
@@ -357,6 +371,19 @@
 
     /*play-instantly secton end */
 
+    /*action game section start*/
+
+
+    /*action game section end*/
+
+
+
+
+
+
+
+
+
     /*footer start */
     .footer-description1 {
         width: 540px;
@@ -381,9 +408,9 @@
 
     }
 
-    .gamer{
+    .gamer {
         padding-right: 90px;
-    
+
     }
 
     /*footer end */
