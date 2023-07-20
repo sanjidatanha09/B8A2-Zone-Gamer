@@ -434,12 +434,11 @@
 }
 
 .action-game-content:hover {
-    border: 2px solid hotpink;
-
-}
-
-.action-game-description:hover {
-    color: hotpink;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border: 2px solid hotpink;
 
 }
 
@@ -449,11 +448,7 @@
     padding: 5px 10px;
     border-radius: 50px;
     background: #FFF;
-
     border: none;
-
-
-
 
 }
 
@@ -471,14 +466,7 @@
 
 }
 
-.action-border {
-    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    border: 2px solid hotpink;
 
-}
 
 /*action game section ends*/
 
