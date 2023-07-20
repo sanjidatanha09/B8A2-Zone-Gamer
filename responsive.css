@@ -31,27 +31,49 @@
 
 
     /*banner section start */
-    .banner-goat-container {
-        flex-direction: column;
+
+    .banner-bg-img {
+        background-image: none;
+
     }
 
-   
+    .banner-goat-container {
+        flex-direction: column-reverse;
+
+    }
+
+
 
     .banner-goat-content {
-        width: 100%;
-        padding: 80px 0px 20px 90px;
+        width: 90%;
+        height: 50%;
+        text-align: center;
         margin-bottom: 100px;
+        background-image: url("images/Group\ 14.png");
+        background-repeat: no-repeat;
+        background-size: 450px;
+        background-position: center;
+        margin-left: 40px;
+        margin-right: 40px;
+
 
 
     }
 
     .banner-goat-img {
         width: 100%;
+        height: 50%;
 
     }
 
+
     .play-title {
-        font-size: 21px;
+        font-size: 16px;
+        padding-top: 50px;
+    }
+
+    .goat {
+        font-size: 30px;
     }
 
     .goat-title {
@@ -59,11 +81,13 @@
     }
 
     .banner-paragraph {
-        font-size: 14px;
+        font-size: 10px;
     }
 
     .btn {
         font-size: 10px;
+        margin-bottom: 60px;
+        padding: 14px;
     }
 
 
@@ -158,27 +182,30 @@
     /* play-instantly section end*/
 
     /*action game section start*/
-    .atcion-game{
+    .atcion-game {
         width: 300px;
         margin: 0 auto;
     }
-   .action-game-img{
-    height: 20px;
-    width: 20px;
-   }
-   .action-game-description{
-    font-size: 5px;
-   
-   }
-   .action-game-content{
-   margin: 0;
-   margin-top: 20px;
+
+    .action-game-img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .action-game-description {
+        font-size: 5px;
+
+    }
+
+    .action-game-content {
+        margin: 0;
+        margin-top: 20px;
 
 
-    
 
 
-   }
+
+    }
 
 
     /*action game section end*/
@@ -235,7 +262,8 @@
         font-size: 9px;
 
     }
-    .btn-footer{
+
+    .btn-footer {
         margin-bottom: 5px;
     }
 
@@ -292,17 +320,42 @@
     }
 
     /*banner section start */
+
+    .banner-bg-img {
+        background-image: none;
+
+    }
+
     .banner-goat-container {
-        flex-direction: column
+        flex-direction: column-reverse;
     }
 
     .banner-goat-content {
         width: 100%;
-        padding: 80px;
+       
         text-align: center;
+        background-image: url("images/Group\ 14.png");
+        background-repeat: no-repeat;
+        background-size: 600px;
+        background-position: center;
 
 
 
+
+    }
+    .play-title{
+        font-size: 25px;
+        padding-top: 50px;
+    }
+    .goat{
+        font-size: 43px;
+    }
+    .banner-paragraph{
+        font-size: 14px;
+    }
+    .btn{
+        font-size: 12px;
+        margin-bottom: 70px;
     }
 
     .banner-goat-img {
