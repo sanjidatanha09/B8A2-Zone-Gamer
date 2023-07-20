@@ -42,8 +42,6 @@
 
     }
 
-
-
     .banner-goat-content {
         width: 90%;
         height: 50%;
@@ -91,7 +89,6 @@
     }
 
 
-
     /*header section end*/
 
     /*main section start */
@@ -131,7 +128,6 @@
     /*  online-game section end */
 
 
-
     /* play-instantly section start */
 
     .play-instantly-container {
@@ -142,7 +138,6 @@
         width: 100%;
         text-align: center;
     }
-
 
 
     .play-instantly-title {
@@ -175,10 +170,6 @@
 
     }
 
-
-
-
-
     /* play-instantly section end*/
 
     /*action game section start*/
@@ -201,16 +192,9 @@
         margin: 0;
         margin-top: 20px;
 
-
-
-
-
     }
 
-
     /*action game section end*/
-
-
 
     /*main section end */
 
@@ -270,23 +254,14 @@
 
     /*footer end */
 }
+/*mobile screen end */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+/*..............................................tablet media screen start ...................................................................*/
 
 
 @media screen and (min-width:426px) and (max-width:768px) {
+
     /*header section start*/
 
     .nav-content {
@@ -332,16 +307,11 @@
 
     .banner-goat-content {
         width: 100%;
-       
         text-align: center;
         background-image: url("images/Group\ 14.png");
         background-repeat: no-repeat;
         background-size: 600px;
         background-position: center;
-
-
-
-
     }
     .play-title{
         font-size: 25px;
@@ -362,8 +332,6 @@
         width: 100%;
 
     }
-
-
 
     /*header section end */
 
@@ -429,14 +397,12 @@
         width: 65%;
         margin-left: 182px;
 
-
     }
 
     #play-img2 {
         width: 300px;
         bottom: 200px;
         padding-left: 30px;
-
 
     }
 
@@ -446,14 +412,6 @@
 
 
     /*action game section end*/
-
-
-
-
-
-
-
-
 
     /*footer start */
     .footer-description1 {
@@ -466,7 +424,6 @@
         margin: 0 auto;
         flex-wrap: wrap;
         font-size: 16px;
-
 
     }
 
